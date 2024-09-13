@@ -1,0 +1,194 @@
+<!DOCTYPE html><html lang="cn" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>妙目居 | 妙目居</title><meta name="author" content="zayn"><meta name="copyright" content="zayn"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="获取IPA 1.1 Apple Configuration 从MAC的Apple Store下载，利用App下载机制导出ipa包  1~&#x2F;Library&#x2F;Group Containers&#x2F;K36BKF7T3D.group.com.apple.configurator&#x2F;Library&#x2F;Caches&#x2F;Assets&#x2F;TemporaryItems&#x2F;MobileApps&#x2F;  1.2 iMazing&amp;#x2">
+<meta property="og:type" content="article">
+<meta property="og:title" content="妙目居">
+<meta property="og:url" content="http://example.com/2024/09/10/%E6%9F%A5%E7%9C%8BiOS%E5%8C%85%E5%90%AB%E7%9A%84SDK/index.html">
+<meta property="og:site_name" content="妙目居">
+<meta property="og:description" content="获取IPA 1.1 Apple Configuration 从MAC的Apple Store下载，利用App下载机制导出ipa包  1~&#x2F;Library&#x2F;Group Containers&#x2F;K36BKF7T3D.group.com.apple.configurator&#x2F;Library&#x2F;Caches&#x2F;Assets&#x2F;TemporaryItems&#x2F;MobileApps&#x2F;  1.2 iMazing&amp;#x2">
+<meta property="og:locale">
+<meta property="og:image" content="http://example.com/image/wp.jpg">
+<meta property="article:published_time" content="2024-09-10T10:07:42.626Z">
+<meta property="article:modified_time" content="2024-09-12T05:46:48.059Z">
+<meta property="article:author" content="zayn">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/image/wp.jpg"><link rel="shortcut icon" href="/image/test.png"><link rel="canonical" href="http://example.com/2024/09/10/%E6%9F%A5%E7%9C%8BiOS%E5%8C%85%E5%90%AB%E7%9A%84SDK/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: 'Copy Successful',
+    error: 'Copy Error',
+    noSupport: 'Browser Not Supported'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: 'Just now',
+    min: 'minutes ago',
+    hour: 'hours ago',
+    day: 'days ago',
+    month: 'months ago'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: 'Load More'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '妙目居',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-09-12 13:46:48'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/styles/main.css"><script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">Loading...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+
+  if (false) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/image/wp.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/image/wp.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="妙目居"><img class="site-icon" src="/image/test.png"/><span class="site-name">妙目居</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></li><li><a class="site-page child" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 照片</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Untitled</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">Created</span><time class="post-meta-date-created" datetime="2024-09-10T10:07:42.626Z" title="Created 2024-09-10 18:07:42">2024-09-10</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">Updated</span><time class="post-meta-date-updated" datetime="2024-09-12T05:46:48.059Z" title="Updated 2024-09-12 13:46:48">2024-09-12</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title=""><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">Post Views:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><ol>
+<li><p>获取IPA<br> 1.1 Apple Configuration 从MAC的Apple Store下载，利用App下载机制导出ipa包</p>
+ <figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">~/Library/Group Containers/K36BKF7T3D.group.com.apple.configurator/Library/Caches/Assets/TemporaryItems/MobileApps/</span><br></pre></td></tr></table></figure>
+<p> 1.2 iMazing&#x2F;爱思助手&#x2F;iTools 三方软件下载IPA，会被三方重签名，软件更新及时性&amp;内容可能会与官方下载的不一致(Apple Store已下架的应用也可以尝试在此下载)</p>
+ <figure class="highlight bat"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">C:\<span class="title">Users</span>\<span class="title">admin</span>\<span class="title">AppData</span>\<span class="title">Roaming</span>\<span class="title">iMazing</span>\<span class="title">Library</span>\<span class="title">Apps</span></span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>解压缩<br> 将下载好的包直接解压后会获得APP文件</p>
+</li>
+<li><p>查看当前APP包含的SDK</p>
+</li>
+</ol>
+<p>  3.1 打开文件com.luckygames.superbrain-2\Payload\SuperBrain.app\Data\ScriptingAssemblies.json(包名已实际解压后的为准，ScriptingAssemblies.json为当前包内所有的SDK)</p>
+<p>  3.2	处理json文件<br>  3.2.1	取names的值，过滤unity相关SDK</p>
+  <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">^.*Unity.*\r?\n?</span><br></pre></td></tr></table></figure>
+<p>  3.2.2 	unity常见依赖库，也可以过滤<br>  <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span><span class="attr">&quot;names&quot;</span><span class="punctuation">:</span><span class="punctuation">[</span><span class="string">&quot;AppsFlyer.dll&quot;</span><span class="punctuation">,</span><span class="string">&quot;BestHTTP.dll&quot;</span><span class="punctuation">,</span><span class="string">&quot;Firebase.Analytics.dll&quot;</span><span class="punctuation">,</span><span class="string">&quot;Firebase.App.dll&quot;</span><span class="punctuation">,</span><span class="string">&quot;Firebase.Crashlytics.dll&quot;</span><span class="punctuation">,</span><span class="string">&quot;Firebase.TaskExtension.dll&quot;</span><span class="punctuation">,</span><span class="string">&quot;Firebase.Platform.dll&quot;</span><span class="punctuation">,</span><span class="string">&quot;MaxSdk.Scripts.dll&quot;</span><span class="punctuation">,</span><span class="string">&quot;UniWebView-CSharp.dll&quot;</span><span class="punctuation">]</span><span class="punctuation">&#125;</span><span class="string">&quot;</span></span><br></pre></td></tr></table></figure><br>  3.2.3 	过滤后的为三方SDK<br>  3.2.4	 注意：fairyGUI 是一个用于 Unity、Cocos、Egret、Laya 等引擎的 GUI 编辑器和 UI 框架，fairyGUI及子文件不属于SDK范畴</p>
+<ol start="4">
+<li>此方法只能监测当前包集成的SDK并不能看到SDK调用行为</li>
+</ol>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>Author: </span><span class="post-copyright-info"><a href="http://example.com">zayn</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>Link: </span><span class="post-copyright-info"><a href="http://example.com/2024/09/10/%E6%9F%A5%E7%9C%8BiOS%E5%8C%85%E5%90%AB%E7%9A%84SDK/">http://example.com/2024/09/10/%E6%9F%A5%E7%9C%8BiOS%E5%8C%85%E5%90%AB%E7%9A%84SDK/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/image/wp.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2024/09/13/notepad++%20%E6%8A%80%E5%B7%A7/" title=""><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">Previous</div><div class="prev_info"></div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/image/wp.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">zayn</div><div class="author-info__description">yax的小屋</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">Articles</div><div class="length-num">5</div></a><a href="/tags/"><div class="headline">Tags</div><div class="length-num">0</div></a><a href="/categories/"><div class="headline">Categories</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/09/13/IOS_SDK%E6%8E%A5%E5%85%A5%E7%9B%91%E6%B5%8B/" title="Untitled">Untitled</a><time datetime="2024-09-13T10:28:16.959Z" title="Created 2024-09-13 18:28:16">2024-09-13</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/09/13/IOS%20%E9%80%86%E5%90%91/" title="Untitled">Untitled</a><time datetime="2024-09-13T10:28:16.957Z" title="Created 2024-09-13 18:28:16">2024-09-13</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/09/13/IOS%E9%80%86%E5%90%91%E6%80%9D%E8%B7%AF/" title="Untitled">Untitled</a><time datetime="2024-09-13T10:28:16.954Z" title="Created 2024-09-13 18:28:16">2024-09-13</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/09/13/notepad++%20%E6%8A%80%E5%B7%A7/" title="Untitled">Untitled</a><time datetime="2024-09-13T10:27:49.232Z" title="Created 2024-09-13 18:27:49">2024-09-13</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/09/10/%E6%9F%A5%E7%9C%8BiOS%E5%8C%85%E5%90%AB%E7%9A%84SDK/" title="Untitled">Untitled</a><time datetime="2024-09-10T10:07:42.626Z" title="Created 2024-09-10 18:07:42">2024-09-10</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By zayn</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="Read Mode"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="Toggle Between Light And Dark Mode"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="Toggle between Single-column and Double-column"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="Setting"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="Back To Top"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script src="/styles/fish.js"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-fluttering-ribbon.min.js"></script><script id="click-heart" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/click-heart.min.js" async="async" mobile="false"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
